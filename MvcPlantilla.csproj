@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\agregarController.cs" />
+    <Compile Include="Controllers\EliminarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -76,7 +78,10 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Views\agregar\Agregar.aspx" />
+    <Content Include="Views\Eliminar\Eliminar.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\Opciones.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

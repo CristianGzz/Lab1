@@ -8,8 +8,18 @@
 </head>
 <body>
     <div>
-        <h1>Bienvenido
-        </h1>
+        <h1>Bienvenido</h1>
+           <h1> </h1>
+        <label>Opciones</label>
+           <h1> </h1>
+        <a href="Index/opciones">agregar video</a>
+        <h1> </h1>
+        <a href="Index/opciones">Eliminar video</a>
+           <h1> </h1>
+        <a href="Index/opciones">modificar video</a>
+           <h1> </h1>
+
+
     </div>
 </body>
 </html>

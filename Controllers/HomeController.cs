@@ -16,5 +16,10 @@ namespace MvcPlantilla.Controllers
             return View();
         }
 
+        public ActionResult Opciones()
+        {
+            return View();
+        }
+
     }
 }
